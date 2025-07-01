@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fff9f6;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+.slide {
+  padding: 4rem 2rem;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+}
+
+.slide img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 2rem 0;
+}
+
+.slide p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  margin-top: 1rem;
+}
+
+.intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.letter {
+  background: #fff;
+  border-radius: 12px;
+  padding: 3rem;
+  box-shadow: 0 0 16px rgba(0,0,0,0.08);
+  font-style: italic;
+}
+
+.letter h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.letter p {
+  white-space: pre-line;
+  text-align: left;
+  font-size: 1.15rem;
+}
